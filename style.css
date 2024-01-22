@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: hsl(212, 45%, 89%);
+    margin: auto;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px 0  hsla(215, 9%, 55%, 0.73) ;
+}
+.qr-img{
+     width: 250px;
+    height: 250px;
+    border-radius: 10px; 
+}
+
+.improve-para{
+     width: 210px;
+     text-align: center; 
+     font-size: 18px;
+     font-weight: 700;
+     margin-top: 20px;
+}
+.scan-para{
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+     width: 250px; 
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
